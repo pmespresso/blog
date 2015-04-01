@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   devise_for :installs
   devise_for :users
   resources :posts do
