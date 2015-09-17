@@ -15,8 +15,12 @@
 	<br>
 	<br>
 		<p class="body lead">
-		<h3 class=''> The Official Definition is: </h3>
-			<div class='well' style="height: 300px;"><%= @post.body %></div>
+		<h3> The Official Definition is: <%= @post.definition %></h3>
+		<br />
+		<h4> Usage Example: <%= @post.usage %> </h4>
+		<br />
+		<h4> Fabuness Rating: <%= @post.fabuness %> </h4>
+
 		</p>
 	 </div>		
 

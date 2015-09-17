@@ -13,8 +13,13 @@
 	<%= f.label :title %><br>
 	<%= f.text_field :title %><br>
 	<br>
-	<%= f.label :body %><br>
-	<%= f.text_area :body %><br>
+	<%= f.label :definition %><br>
+	<%= f.text_area :definition, rows: 10 %><br>
 	<br>
+	<%= f.label :usage %><br>
+	<%= f.text_field :usage, rows: 5 %><br>
+	<br>
+	<%= f.label :fabuness %><br>
+	<%= f.text_area :fabuness %><br>
 	<%= f.submit %>
 <% end %>
