@@ -11,8 +11,6 @@ gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.4.1'
 
-gem 'sdoc', '~> 0.4.0', group: :doc
-
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
