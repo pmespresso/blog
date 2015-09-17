@@ -177,10 +177,10 @@ DEPENDENCIES
   devise (~> 3.4.1)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 0.18.3)
   pry
   rails (= 4.2.0)
-  rails_12factor
+  rails_12factor (~> 0.0.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
